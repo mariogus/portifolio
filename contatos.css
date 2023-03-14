@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #101026;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #1d1d2e;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+section h1{
+    color: #F5F5F5;
+    font-size: 2.5rem;
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    color: #F5F5F5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+    border-radius: 5px;
+
+}
+form input:focus{
+    border-radius: 16px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border:0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    border-radius: 5px;
+
+
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #F5F5F5;
+    color: #F5F5F5;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+form button:hover{
+    background: #F5F5F5;
+    color: #101016;
+    border-radius: 15px;
+    transform: scale();
+}

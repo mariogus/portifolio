@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gajraj+One&family=Tilt+Neon&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Tilt+Neon&display=swap');
+
+.cabecalho-imagem{
+
+    height: 650px;
+    height: 65px;
+    border-radius: 50%;
+    margin-left: -23%;
+     
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+   
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+}
+.cabecalho-itens{
+    font-family: 'Sarala', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gajraj One', cursive;
+    font-size: 21px;
+    text-decoration: none;
+    text-shadow:0px 0px 8px aqua ;
+    
+
+}
+.cabecalho-itens:hover{
+    opacity: 0.7;
+   
+}
+
+.cabecalho-imagem{
+    margin-right: 20%;
+}
+
+body{
+    background: rgb(30,29,55);
+    background: linear-gradient(90deg, rgba(30,29,55,1) 0%, rgba(24,24,43,1) 24%, rgba(19,53,60,1) 53%); 
+}
+
+#text-sobremim{
+    margin-left: 14%;
+    margin-top: 11%;
+    float: left;
+    font-size: 40px;
+    font-family: 'Tilt Neon', cursive;
+    color:  #ffffff;
+    border-right: 4px solid;
+    width: 36ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(35);
+    text-shadow:0px 0px 8px aqua ;
+    
+}
+@keyframes typing {
+    from{
+        width: 0;
+
+    }
+
+    
+}
+
+@keyframes blinking {
+    50%{
+        border-color: transparent;
+    }
+    
+}
+
+.sobremim{
+   
+    margin-top: 20%;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titulo-sobremim{
+    border-top: 0.4px solid aqua ;
+    padding-top: 10px;
+    font-family: 'Righteous', cursive; 
+    font-weight: 400;
+    font-size: 40px;
+    color: aqua ;
+    margin-bottom: 16px;
+   
+}
+
+.texto-sobremim{
+    font-weight: 300;
+    font-size: 27px;
+    color:  #FFF2E7 ;
+    padding: 10px;
+    
+
+}
+
+.premen{
+    color: rgb(3, 3, 3);
+    text-shadow:0px 0px 8px aqua ;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 50px;
+    
+}
+
+.container .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background: #0c3f53;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container .card:hover{
+    transform: translateY(-40px);
+    box-shadow: 0 0 20px #072733;
+
+}
+
+.percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px #17769b;
+    z-index: 1000;
+}
+
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.percent .number h2{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+
+}
+
+.img img{
+    width: 100px;
+    padding-bottom: 40px;
+    transition: all 0.5s;
+}
+
+.img img:hover{
+    width: 130px;
+
+}
+
+svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+
+}
+
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+
+}
+
+.svg circle>:nth-child(1){
+    stroke-dasharray: 390;
+}
+
+.svg circle>:nth-child(2){
+    stroke-dasharray: 330;
+}
+
+.svg circle>:nth-child(3){
+    stroke-dasharray: 270;
+}
+
+.card:nth-child(1) svg circle:nth-child(1){
+    stroke: #264de4;
+}
+
+.card:nth-child(2) svg circle:nth-child(1){
+    stroke: #e44d26;
+}
+
+.card:nth-child(3) svg circle:nth-child(1){
+    stroke: #ffda3e;
+}
+
+
+
+
+
